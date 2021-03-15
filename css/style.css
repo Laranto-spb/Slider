@@ -50,7 +50,6 @@ button:disabled {
 .slider-container {
   width: 400px;
   margin-bottom: 20px;
-  background-color: pink;
   overflow: hidden;
   border-radius: 20px;
   transition: width 0.3s;
@@ -108,14 +107,6 @@ button:disabled {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.slider-item:nth-child(odd) {
-  background-color: red;
-}
-
-.slider-item:nth-child(even) {
-  background-color: blue;
 }
 
 .btn {
