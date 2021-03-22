@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+button {
+    cursor: pointer;
+}
+
+.slider {
+    position: relative;
+    width: 640px;
+    margin: auto;
+    overflow: hidden;
+
+}
+
+.slider-track {
+    display: flex;
+    width: 100%;
+}
+
+.slider-track img {
+    width: 100%;
+}
+
+#prevBtn {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    z-index: 50;
+    font-size: 50px;
+    color: red;
+    opacity: 0.5;
+    cursor: pointer;
+
+}
+
+#nextBtn {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    z-index: 50;
+    font-size: 50px;
+    color: red;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.bubbles {
+    width: 100px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+    z-index: 50;
+}
+
+.active {
+    color: red;
+    background-color: red;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+
